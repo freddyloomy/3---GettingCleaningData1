@@ -78,9 +78,9 @@ The dataset contains 68 variables, with 180 observation
  $ fBodyBodyGyroJerkMag.std.. : num  -0.382 -0.558 -0.549 -0.758 -0.456 ...  
  
  
-1. Activity
-Desc: This column represents the 6 different types of activities that is being captured as part of the experiment. 
-Datatype : Factor
+####1. Activity  
+Desc: This column represents the 6 different types of activities that is being captured as part of the experiment.   
+Datatype : Factor  
 index             labels
 1     1            WALKING
 2     2   WALKING_UPSTAIRS
@@ -89,11 +89,11 @@ index             labels
 5     5           STANDING
 6     6             LAYING
 
-2. subject
-Desc: This represent the 30 different test subjects (from 1 to 30)
-Datatype: Integer
+####2. subject  
+Desc: This represent the 30 different test subjects (from 1 to 30)  
+Datatype: Integer  
 
-3. All the other 66 variables
-Desc: Each variable is a mean of the festures, by activity and subject. The description of the factors is available in the file features.txt and features_info.txt. The file is in the GIT repository
-Datatype : Numeric
+####3. All the other 66 variables  
+Desc: Each variable is a mean of the festures, by activity and subject. The description of the factors is available in the file features.txt and features_info.txt. The file is in the GIT repository  
+Datatype : Numeric  
 
